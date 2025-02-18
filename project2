@@ -1,0 +1,33 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Responsive Layouts</title>
+        <meta name="description" content="This site will serve as the hub for many sub responsive layouts">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+        <meta property="og:title" content="">
+        <meta property="og:type" content="">
+        <meta property="og:url" content="">
+        <meta property="og:image" content="">
+      
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+      
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+      
+        <meta name="theme-color" content="#A7C7E7">
+        <style>
+            body {
+                background-image: url("https://static.standard.co.uk/2024/08/23/11/06/espresso-LEAD-PRESS.jpg?trim=36,0,714,0&quality=75&auto=webp&width=1000"); /* Path to your image */
+                background-size: cover; /* Makes the image cover the entire area */
+                background-position: center; /* Centers the image */
+                background-repeat: no-repeat; /* Prevents repeating */
+                height: 100vh; /* Ensures it covers full height */
+                margin: 0;
+            }
+        </style>
+        </head>
