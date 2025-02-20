@@ -32,7 +32,8 @@
 
         <main>
             <h1 id="top" class="purple giraffe heading">giraffes</h1>
-            <div class="purple giraffe container">
+            <div class="purple giraffe felx-row" style="flex-direction: column;">
+                
                 <h2>Ourzoo</h2>
                 <p>hrjeklnfureicvnktrrrlh,srnvh</p>
         </main>
