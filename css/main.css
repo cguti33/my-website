@@ -22,7 +22,7 @@ gap: 30
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(175, 175, 235);
+    background-color: rgb(176, 176, 255);
     padding: 10px;
     list-style: none;
     margin: 0;
@@ -34,4 +34,53 @@ gap: 30
     padding: 10px;
     display: flex;
   }
-  
+  .menu {
+    display: none; 
+    }
+    .hamburger {
+    display: none; 
+    }
+    @media (max-width: 768px) {
+    .menu {
+    display: block;
+    }
+    .hamburger {
+    display: block;
+    }
+    }
+    
+  .offcanvas-nav {
+    position: relative;
+    }
+    .menu {
+    position: fixed;
+    top: 20px;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #fff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+transform: translateX(-100%);
+transition: transform 0.3s ease;}
+.menu.expanded {
+    transform: translateX(0);
+    }
+    .menu-toggle {
+    
+    }
+    @media (min-width: 768px) {
+    .offcanvas-nav {
+    display: block; 
+    }
+    .menu {
+    display: block;
+    position: static; 
+    width: auto;
+    transform: none;
+    box-shadow: none;
+    }
+    .menu-toggle {
+    display: none;
+    }
+    }
+    
