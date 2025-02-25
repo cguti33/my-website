@@ -17,3 +17,21 @@ gap: 30
 .purple-giraffe-flex-row-item-2{
     flex:40%
 }
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(175, 175, 235);
+    padding: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+  }
+  
+  .navbar a {
+    padding: 10px;
+    display: flex;
+  }
+  
