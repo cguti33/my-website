@@ -34,20 +34,7 @@ gap: 30
     padding: 10px;
     display: flex;
   }
-  .menu {
-    display: none; 
-    }
-    .hamburger {
-    display: none; 
-    }
-    @media (max-width: 768px) {
-    .menu {
-    display: block;
-    }
-    .hamburger {
-    display: block;
-    }
-    }
+
     
   .offcanvas-nav {
     position: relative;
@@ -60,27 +47,9 @@ gap: 30
     width: 250px;
     background-color: #fff;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
-transform: translateX(-100%);
+transform: translateX(100%);
 transition: transform 0.3s ease;}
 .menu.expanded {
-    transform: translateX(0);
-    }
-    .menu-toggle {
-    
-    }
-    @media (min-width: 768px) {
-    .offcanvas-nav {
-    display: block; 
-    }
-    .menu {
-    display: block;
-    position: static; 
-    width: auto;
-    transform: none;
-    box-shadow: none;
-    }
-    .menu-toggle {
-    display: none;
-    }
+    transform: translateX(-100%);
     }
     
