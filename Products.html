@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Responsive Layouts</title>
-  <meta name="description" content="This site will serve as the hub for many sub responsive layouts">
+  <title>Perfumes</title>
+  <meta name="description" content="Selection of perfumes in mywebsite">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:title" content="">
@@ -28,18 +28,42 @@
     <span class="menu-icon"></span> Menu
     </button>
     <ul id="offcanvas-menu" class="menu">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Contact</a></li>
+    <li><a href="./Homepage.html">Home</a></li>
+    <li><a href="./Products.html">Product</a></li>
+    <li><a href="./About.html">About</a></li>
     </ul>
     </nav>
+    <h1>Perfumes</h1>
+    <style>
+      h1{
+        text-align: center;
+      }
+    </style>
 </header>
-
-
-
 <body>
+  
+  <div style="text-align: center;">
+  <picture>
+    <source media="(max-width: 300px)" srcset="image-small.jpg">
+    <source media="(max-width: 600px)" srcset="image-medium.jpg">
+    <img src="https://scentbeauty.com/cdn/shop/products/SC_75ml_2.png?v=1689778357&width=990" alt="Sweet tooth scent">
+    </picture>
+
+    <picture>
+      <source media="(max-width: 300px)" srcset="image-small.jpg">
+      <source media="(max-width: 600px)" srcset="image-medium.jpg">
+      <img src="https://scentbeauty.com/cdn/shop/files/SC_MeEspresso_EDP_75ml_B_P.jpg?v=1732115196&width=990" alt="Me Espresso scent">
+      </picture>
+
+        <picture>
+          <source media="(max-width: 300px)" srcset="image-small.jpg">
+          <source media="(max-width: 600px)" srcset="image-medium.jpg">
+          <img src="https://scentbeauty.com/cdn/shop/files/SC_CD_75ml_2.jpg?v=1717090147&width=990" alt="Caramel Dream scent">
+          </picture>
+        </div>
+
   <!-- Place your site's HTML here -->
-  <p>This text will display on your site! Jan 19</p>
+  <p></p>
   <script src="js/main.js"></script>
 </body>
 
